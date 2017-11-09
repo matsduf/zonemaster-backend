@@ -32,9 +32,9 @@ requires
 
 test_requires 'DBD::SQLite';
 
-recommends 'DBD::mysql';
-recommends 'DBD::Pg';
-recommends 'DBD::SQLite';
+# recommends 'DBD::mysql';
+# recommends 'DBD::Pg';
+# recommends 'DBD::SQLite';
 
 install_share;
 
